@@ -1,0 +1,5 @@
+action_endpoint:
+  url: "http://127.0.0.1:5055/webhook"
+
+core_endpoint:
+  url: "http://127.0.0.1:5005"

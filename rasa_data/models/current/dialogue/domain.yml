@@ -1,0 +1,49 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_thanks
+- utter_goodbye
+- utter_resource
+- utter_next_item
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thank:
+    use_entities: true
+- pullresourcemangement:
+    use_entities: true
+- nextitem:
+    use_entities: true
+slots: {}
+templates:
+  utter_goodbye:
+  - text: Bye
+  - text: Goodbye!
+  - text: Have a wonderful rest of the day!
+  - text: Bye for now
+  - text: Until we see each other!
+  utter_greet:
+  - text: Hey there!
+  - text: Howdy!
+  - text: Hello there!
+  - text: Hello. Hope you are having a wonderful day.
+  - text: Hello!
+  utter_next_item:
+  - text: moving on
+  utter_resource:
+  - text: Pulling up the resource avaialbility data
+  - text: Sure thing! Pulling up the resource availability data
+  - text: Accessing the resource data.
+  utter_thanks:
+  - text: My pleasure.
+  - text: No problem!
+  - text: You're welcome!
+  - text: That's sweet of you to thank a non-living entity like me.
+  - text: I was designed to serve you, it's my pleasure.

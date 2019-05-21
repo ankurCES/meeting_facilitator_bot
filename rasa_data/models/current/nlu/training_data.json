@@ -1,0 +1,125 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for everything"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a lot for your help"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a lot for your assistance"
+      },
+      {
+        "intent": "pullresourcemangement",
+        "text": "please pull the list of resources"
+      },
+      {
+        "intent": "pullresourcemangement",
+        "text": "can you pull the list of resources"
+      },
+      {
+        "intent": "pullresourcemangement",
+        "text": "show me the resource list"
+      },
+      {
+        "intent": "pullresourcemangement",
+        "text": "show me the utilization summary"
+      },
+      {
+        "intent": "nextitem",
+        "text": "next"
+      },
+      {
+        "intent": "nextitem",
+        "text": "next item"
+      },
+      {
+        "intent": "nextitem",
+        "text": "next action item"
+      },
+      {
+        "intent": "nextitem",
+        "text": "please move on"
+      },
+      {
+        "intent": "nextitem",
+        "text": "move on to the next item"
+      },
+      {
+        "intent": "nextitem",
+        "text": "move on"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
