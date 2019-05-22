@@ -1,4 +1,4 @@
-# Meeting Assitant
+# Meeting Assistant
 
 ## Introduction
 Meetings… a word we all programmers tend to hate for various reasons. Out of all the bizzare reasons that our developer brain comes up with, one is the most common – OUR MEETINGS ARE NOT TIMBOXED!!!
