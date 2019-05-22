@@ -1,4 +1,5 @@
 import speech_recognition as sr
+from playsound import playsound
 
 def recognize_input():
     r = sr.Recognizer()
@@ -6,6 +7,8 @@ def recognize_input():
     # sr.Microphone(device_index=3)
     with sr.Microphone() as source:
         r.adjust_for_ambient_noise(source)
+        # Feedback to user - short beep
+        playsound('assets/beep_short.mp3')
         print('listening.....')
         audio = r.listen(source)
     try:
